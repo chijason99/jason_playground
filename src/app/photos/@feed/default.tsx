@@ -1,6 +1,3 @@
-import PhotoGrid from '../../../../components/photoGrid';
-import { photos } from '../../../../data/photos';
-
 export default function Feed() {
   return (
     <div className="p-6">
