@@ -24,8 +24,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
   modal: React.ReactNode;
-  feed: React.ReactNode;
-  sidebar: React.ReactNode;
 }>) {
   return (
     <html lang="en">
