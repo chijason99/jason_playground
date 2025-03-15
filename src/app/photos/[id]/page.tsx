@@ -1,7 +1,7 @@
 import { photos } from "../../../../data/photos"
 import Link from 'next/link'
 
-export default async function PhotoPage( { params } : { params: { id: string} } ) {
+export default async function PhotoPage( { params } : { params: Promise<{ id: string }> } ) {
     const { id } = await params;
 
     const photo = photos.find(p => p.id === id);
